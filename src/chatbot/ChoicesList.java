@@ -14,4 +14,8 @@ public class ChoicesList extends Choices{
 		choicesList.add(choice);
 	}
 	
+	public void removeChoices (Choices choice) {
+		choicesList.remove(choice);
+	}
+	
 }

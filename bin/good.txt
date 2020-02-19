@@ -1,0 +1,10 @@
+} else if (mood.equalsIgnoreCase("Good")) {
+				System.out.println("ROBOT: That's great!");
+				System.out.println("ROBOT: Wanna have more fun? Enter: Yes/ No");
+				String answer = sc.nextLine();
+				if (answer.equalsIgnoreCase("Yes")) {
+					System.out.println("ROBOT: Choose one: Joke/ Meme/ Recipe/ Song ");
+				} else if (answer.equalsIgnoreCase("No")) {
+					System.out.println(
+							"ROBOT: Well, that's great - my job here is done! Keep being awesome! Let's talk another time! :)");
+					break;
